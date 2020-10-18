@@ -89,11 +89,11 @@ function toggleSelect(event) {
     
     //verify yes or no
     input.value = button.dataset.value
-    
-    
+}
 
+function validate(event) {
 
-   
-
-    
+    //validar se lat e lng estao preenchidos
+    //event.preventDefault()
+    //alert('Selecione um ponto no mapa')
 }
